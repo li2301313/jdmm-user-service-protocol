@@ -1,0 +1,14 @@
+{
+    "name": "jdmm/vhub-user-service-protocol",
+    "type": "library",
+    "description": "vhub-user-service包",
+    "license": "Apache-2.0",
+    "require": {
+      "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jdmm\\Vhub\\UserServiceProtocol\\": "src/"
+        }
+    }
+}
